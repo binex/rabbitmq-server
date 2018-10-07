@@ -1,0 +1,10 @@
+{application,ranch_proxy_protocol,
+             [{description,"Ranch Proxy Protocol Transport"},
+              {vsn,"2.1.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,ranch]},
+              {env,[{proxy_protocol_timeout,55000},{ssl_accept_opts,[]}]},
+              {links,[{"Github",
+                       "https://github.com/heroku/ranch_proxy_protocol"}]},
+              {licenses,["BSD 3-Clause"]},
+              {modules,[]}]}.
